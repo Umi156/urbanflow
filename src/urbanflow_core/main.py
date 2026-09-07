@@ -1,5 +1,8 @@
+from urbanflow_core.greetings import say_hello
+
+
 def main():
-    print("UrbanFlow started.")
+    say_hello()
 
 
 if __name__ == "__main__":
